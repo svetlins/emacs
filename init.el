@@ -3,3 +3,4 @@
 (load "keymappings")
 (load "repos")
 (load "ruby")
+(load "global-modes")
