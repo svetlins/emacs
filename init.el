@@ -2,3 +2,4 @@
 (load "cleanup")
 (load "keymappings")
 (load "repos")
+(load "ruby")
