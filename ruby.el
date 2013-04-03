@@ -2,4 +2,4 @@
 	  (lambda ()
 	    (ruby-end-mode)
 	    (enclose-mode)
-	    (ruby-tools-mode))
+	    (ruby-tools-mode)))
