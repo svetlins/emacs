@@ -168,7 +168,7 @@
 	[(20120108 1245)
 	 nil "show vertical line (column highlighting) mode. [source: wiki]" single])
  (vlfi .
-       [(20130402 146)
+       [(20130404 1149)
 	nil "View Large Files Improved [source: github]" single])
  (visible-mark .
 	       [(20080221 651)
@@ -547,7 +547,7 @@
 		  (24 1)))
 		"a dark colorful theme for Emacs24. [source: github]" single])
  (solarized-theme .
-		  [(20130307 1452)
+		  [(20130404 1241)
 		   nil "The Solarized color theme, ported to Emacs. [source: github]" tar])
  (snippet .
 	  [(20130210 1815)
@@ -724,7 +724,7 @@
     [(20130320 1524)
      nil "The long lost Emacs string manipulation library. [source: github]" single])
  (rvm .
-      [(20130210 1710)
+      [(20130403 1103)
        nil "Emacs integration for rvm [source: github]" single])
  (rust-mode .
 	    [(20130308 1251)
@@ -878,6 +878,9 @@
  (pyregexp .
 	   [(20130401 1520)
 	    nil "A Python regexp/replace command for Emacs with interactive visual feedback [source: github]" tar])
+ (pylint .
+	 [(20121112 1335)
+	  nil "minor mode for running `pylint' [source: hg]" single])
  (purty-mode .
 	     [(20130214 1502)
 	      nil "Safely pretty-print greek letters, mathematical symbols, or anything else. [source: github]" single])
@@ -1869,7 +1872,7 @@
 	    (20120509)))
 	  "helm-sources and some utilities for GNU R. [source: github]" single])
  (helm .
-       [(20130404 925)
+       [(20130404 953)
 	nil "Helm is an Emacs incremental and narrowing framework [source: github]" tar])
  (header2 .
 	  [(20121228 2051)
@@ -2345,7 +2348,7 @@
 			(20130225 1754)))
 		      "popup description of R object [source: github]" single])
  (ess .
-      [(20130327 1235)
+      [(20130404 1014)
        nil "No description available. [source: github]" tar])
  (espuds .
 	 [(20130226 2124)
