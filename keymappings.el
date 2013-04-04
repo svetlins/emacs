@@ -3,6 +3,8 @@
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (global-set-key (kbd "C-w") 'backward-kill-word)
 (global-set-key (kbd "C-y") 'yank-and-indent)
+(global-set-key (kbd "C-,") 'hlt-highlight-region)
+(global-set-key (kbd "C-.") 'hlt-unhighlight-region)
 
 (add-hook 'ruby-mode-hook
 	  (lambda ()
