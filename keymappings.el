@@ -6,7 +6,7 @@
 (global-set-key (kbd "C-y") 'yank-and-indent)
 (global-set-key (kbd "C-,") 'hlt-highlight-region)
 (global-set-key (kbd "C-.") 'hlt-unhighlight-region)
-(global-set-key (kbd "s-f") 'ag-project)
+(global-set-key (kbd "s-f") 'ag-project-at-point)
 
 (add-hook 'ruby-mode-hook
 	  (lambda ()
