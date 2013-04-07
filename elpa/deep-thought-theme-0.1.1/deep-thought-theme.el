@@ -98,7 +98,7 @@
 
  ;; Region
  '(region
-   ((t (:background "#102530"))))
+   ((t (:background "#203560"))))
 
  ;; show-paren-mode
  '(show-paren-match ((t (:foreground "#fff" :background "#256" ))))
@@ -134,7 +134,7 @@
  ;; Hightlight
  '(highlight
    ((((class color) (min-colors 88) (background light)) (:background "#103453"))
-    (((class color) (min-colors 88) (background dark)) (:background "#113450")) 
+    (((class color) (min-colors 88) (background dark)) (:background "#113450"))
     (((class color) (min-colors 16) (background light)) (:background "#103450"))
     (((class color) (min-colors 16) (background dark)) (:background "#104560"))
     (((class color) (min-colors 8)) (:foreground "#000000" :background "#1050a0")) (t (:inverse-video t))))
@@ -151,13 +151,13 @@
 
 
  '(link (
-         (((class color) (min-colors 88) (background light)) (:underline t :foreground "#1057f0")) 
-         (((class color) (background light)) (:underline t :foreground "#1044a0")) 
-         (((class color) (min-colors 88) (background dark))  (:underline t :foreground "#1069aa")) 
+         (((class color) (min-colors 88) (background light)) (:underline t :foreground "#1057f0"))
+         (((class color) (background light)) (:underline t :foreground "#1044a0"))
+         (((class color) (min-colors 88) (background dark))  (:underline t :foreground "#1069aa"))
          (((class color) (background dark))  (:underline t :foreground "#1069aa")) (t (:inherit (underline)))))
 
- '(link-visited ((default (:inherit (link))) 
-                 (((class color) (background light)) (:inherit (link))) 
+ '(link-visited ((default (:inherit (link)))
+                 (((class color) (background light)) (:inherit (link)))
                  (((class color) (background dark)) (:inherit (link)))))
 
  '(button ((t (:inherit (link)))))
@@ -184,7 +184,7 @@
  '(lazy-highlight
    ((((class color) (min-colors 88) (background light)) (:background "#1877dd"))
     (((class color) (min-colors 88) (background dark)) (:background "#1777dd"))
-    (((class color) (min-colors 16)) (:background "#144499")) 
+    (((class color) (min-colors 16)) (:background "#144499"))
     (((class color) (min-colors 8)) (:background "#155599")) (t (:underline t))))
 
  '(match
