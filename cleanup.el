@@ -18,3 +18,9 @@
                                       keyboard-quit mwheel-scroll down up next-line previous-line
                                       backward-char forward-char))
           (ding))))
+
+(setq scroll-step            1
+      scroll-conservatively  10000)
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
+(setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
+(setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
